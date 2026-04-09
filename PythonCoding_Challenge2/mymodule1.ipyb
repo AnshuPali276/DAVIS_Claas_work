@@ -1,0 +1,46 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM3BvdbSvzbmxC8DqnLWyyT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AnshuPali276/DAVIS_Claas_work/blob/main/PythonCoding_Challenge2/mymodule1.ipyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import mymodule\n",
+        "\n",
+        "a = int(input(\"Enter a: \"))\n",
+        "b = int(input(\"Enter b: \"))\n",
+        "\n",
+        "print(\"Sum =\", mymodule.add(a, b))"
+      ],
+      "metadata": {
+        "id": "KOZqMjdOw-CS"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
